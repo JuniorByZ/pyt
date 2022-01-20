@@ -1,3 +1,3 @@
 # pyt
-Hello All\n
+Hello All
 Python studying area...
