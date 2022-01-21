@@ -1,11 +1,17 @@
-""" # tuples: ordered, immutable, allows duplicate elements
+""" # tuples: ordered, immutable, allows duplicate elements"""
+import timeit
+import sys
+from os import system
+system("cls")
+print("...TUPLES...")
+print("-"*15)
+
 
 # comma = ("Max") #string
 # comma = ("Max",) #tuple
 
 
-
-
+"""
 def listele(liste):
     say  = len(liste)
     x=1
@@ -57,14 +63,11 @@ print("*"*30)
 print("*"*30) """
 
 
-import sys, timeit
-from os import system
-
-system("cls")
-my_list = [0,1,2,"hello",True]
-my_tuple = (0,1,2,"hello",True)
+""" system("cls")
+my_list = [0, 1, 2, "hello", True]
+my_tuple = (0, 1, 2, "hello", True)
 print(sys.getsizeof(my_list), "bytes")
 print(sys.getsizeof(my_tuple), "bytes")
 print("-"*30)
-print(timeit.timeit(stmt="[0,1,2,3,4,5]",number=1000000))
-print(timeit.timeit(stmt="(0,1,2,3,4,5)",number=1000000))
+print(timeit.timeit(stmt="[0,1,2,3,4,5]", number=1000000))
+print(timeit.timeit(stmt="(0,1,2,3,4,5)", number=1000000)) """
