@@ -45,7 +45,7 @@ def sil():
 def bul():
     result=mycollection.find({
         "ad":{
-            "$in":["ahmet"]#içinde sanmsung s6 ve s7 bulunduran verileri seçer
+            "$in":["ahmet"]
         }
     })
     pp.pprint(result[0])
