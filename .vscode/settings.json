@@ -1,4 +1,6 @@
 {
     "files.autoSave": "onWindowChange",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true
 }
