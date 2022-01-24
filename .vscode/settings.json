@@ -2,5 +2,6 @@
     "files.autoSave": "onWindowChange",
     "editor.formatOnSave": true,
     "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "editor.wordWrapColumn": 150
 }
