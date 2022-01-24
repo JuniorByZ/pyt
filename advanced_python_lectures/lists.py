@@ -15,7 +15,6 @@ def listele(liste):
             print(item, end=",")
             x += 1
 
-
 mylist = ["a", "b", "c", "d", "e", "f"]
 
 print('list')
